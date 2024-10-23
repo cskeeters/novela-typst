@@ -1,0 +1,83 @@
+--- NovelaDisplay-Regular.ttx	2024-10-23 15:14:07
++++ NovelaDisplay-Regular.ttx	2024-10-23 15:12:30
+@@ -811,22 +811,22 @@
+       Copyright © 2021 by atipo. All rights reserved.
+     </namerecord>
+     <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Novela
++      Novela Display
+     </namerecord>
+     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Display Regular
++      Regular
+     </namerecord>
+     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      1.000;UKWN;Novela-DisplayRegular
++      1.001;UKWN;NovelaDisplay-Regular
+     </namerecord>
+     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+       Novela Display Regular
+     </namerecord>
+     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
++      Version 1.001
+     </namerecord>
+     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Novela-DisplayRegular
++      NovelaDisplay-Regular
+     </namerecord>
+     <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
+       atipo
+@@ -844,16 +844,16 @@
+       Regular
+     </namerecord>
+     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+-      1.000;UKWN;Novela-DisplayRegular
++      1.001;UKWN;NovelaDisplay-Regular
+     </namerecord>
+     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+       Novela Display Regular
+     </namerecord>
+     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+-      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
++      Version 1.001
+     </namerecord>
+     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+-      Novela-DisplayRegular
++      NovelaDisplay-Regular
+     </namerecord>
+     <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+       atipo
+@@ -862,10 +862,10 @@
+       www.atipo.es
+     </namerecord>
+     <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
+-      Novela
++      Novela Display
+     </namerecord>
+     <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+-      Display Regular
++      Regular
+     </namerecord>
+   </name>
+ 
+@@ -1276,6 +1276,9 @@
+       <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
++      <map code="0x273E" name="fleuron001.ornm"/>
++      <map code="0x273F" name="fleuron002.ornm"/>
++      <map code="0x2740" name="fleuron003.ornm"/>
+     </cmap_format_4>
+     <cmap_format_4 platformID="3" platEncID="1" language="0">
+       <map code="0x20" name="space"/><!-- SPACE -->
+@@ -1682,6 +1685,9 @@
+       <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
++      <map code="0x273E" name="fleuron001.ornm"/>
++      <map code="0x273F" name="fleuron002.ornm"/>
++      <map code="0x2740" name="fleuron003.ornm"/>
+     </cmap_format_4>
+   </cmap>
+ 

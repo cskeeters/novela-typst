@@ -1,0 +1,49 @@
+--- Novela-Regular.ttx	2024-10-23 15:41:27
++++ Novela-Regular-mod.ttx	2024-10-23 15:35:20
+@@ -822,7 +822,7 @@
+       Novela Regular
+     </namerecord>
+     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
++      Version 1.001;hotconv 1.0.109;makeotfexe 2.5.65596
+     </namerecord>
+     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+       Novela-Regular
+@@ -849,7 +849,7 @@
+       Novela Regular
+     </namerecord>
+     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+-      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
++      Version 1.001;hotconv 1.0.109;makeotfexe 2.5.65596
+     </namerecord>
+     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+       Novela-Regular
+@@ -1269,6 +1269,9 @@
+       <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
++      <map code="0x273E" name="fleuron001.ornm"/>
++      <map code="0x273F" name="fleuron002.ornm"/>
++      <map code="0x2740" name="fleuron003.ornm"/>
+     </cmap_format_4>
+     <cmap_format_4 platformID="3" platEncID="1" language="0">
+       <map code="0x20" name="space"/><!-- SPACE -->
+@@ -1675,6 +1678,9 @@
+       <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
++      <map code="0x273E" name="fleuron001.ornm"/>
++      <map code="0x273F" name="fleuron002.ornm"/>
++      <map code="0x2740" name="fleuron003.ornm"/>
+     </cmap_format_4>
+   </cmap>
+ 
+@@ -1694,7 +1700,7 @@
+     <major value="1"/>
+     <minor value="0"/>
+     <CFFFont name="Novela-Regular">
+-      <version value="001.000"/>
++      <version value="001.001"/>
+       <Notice value="Copyright \(c\) 2021 by atipo. All rights reserved."/>
+       <FullName value="Novela Regular"/>
+       <Weight value="Regular"/>

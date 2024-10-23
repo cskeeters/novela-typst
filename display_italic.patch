@@ -1,0 +1,79 @@
+--- NovelaDisplay-Italic.ttx	2024-10-23 15:23:48
++++ NovelaDisplay-Italic.ttx	2024-10-23 15:23:36
+@@ -811,22 +811,22 @@
+       Copyright © 2021 by atipo. All rights reserved.
+     </namerecord>
+     <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Novela
++      Novela Display
+     </namerecord>
+     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Display Italic
++      Italic
+     </namerecord>
+     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      1.000;UKWN;Novela-DisplayItalic
++      1.001;UKWN;Novela-DisplayItalic
+     </namerecord>
+     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+       Novela Display Italic
+     </namerecord>
+     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
++      Version 1.001;hotconv 1.0.109;makeotfexe 2.5.65596
+     </namerecord>
+     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+-      Novela-DisplayItalic
++      NovelaDisplay-Italic
+     </namerecord>
+     <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
+       atipo
+@@ -841,7 +841,7 @@
+       Italic
+     </namerecord>
+     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+-      1.000;UKWN;Novela-DisplayItalic
++      1.001;UKWN;Novela-DisplayItalic
+     </namerecord>
+     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+       Novela Display Italic
+@@ -850,16 +850,16 @@
+       Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
+     </namerecord>
+     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+-      Novela-DisplayItalic
++      NovelaDisplay-Italic
+     </namerecord>
+     <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+       atipo
+     </namerecord>
+     <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
+-      Novela
++      Novela Display
+     </namerecord>
+     <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+-      Display Italic
++      Italic
+     </namerecord>
+   </name>
+ 
+@@ -1270,6 +1270,9 @@
+       <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
++      <map code="0x273E" name="fleuron001.ornm"/>
++      <map code="0x273F" name="fleuron002.ornm"/>
++      <map code="0x2740" name="fleuron003.ornm"/>
+     </cmap_format_4>
+     <cmap_format_4 platformID="3" platEncID="1" language="0">
+       <map code="0x20" name="space"/><!-- SPACE -->
+@@ -1676,6 +1679,9 @@
+       <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
++      <map code="0x273E" name="fleuron001.ornm"/>
++      <map code="0x273F" name="fleuron002.ornm"/>
++      <map code="0x2740" name="fleuron003.ornm"/>
+     </cmap_format_4>
+   </cmap>
+ 
