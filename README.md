@@ -63,30 +63,8 @@ Then install the modified versions.
 
 # Testing
 
-You should be able to confirm that the changes worked in Typst by examining the output of the following Typst code.
+You should be able to confirm that the changes worked in Typst by examining the output after compiling `test.typ`.
 
-```typst
-= Display Regular
-#text(font:"Novela")[ABC] (Should have lower contrast strokes than the line below)
-
-#text(font:"Novela Display")[ABC]
-
-= Display Italic
-
-#text(font:"Novela", style:"italic")[ABC] (Should have lower contrast strokes than the line below)
-
-#text(font:"Novela Display", style:"italic")[ABC]
-
-= Ornaments
-
-#text(font:"Novela")[✾✿❀]
-
-= Ornaments in Display Fonts
-
-#text(font:"Novela Display")[✾✿❀]
-
-#text(font:"Novela Display", style: "italic")[✾✿❀]
-```
 
 [atipo]: https://www.atipofoundry.com/
 [FontTools]: https://github.com/fonttools/fonttools
