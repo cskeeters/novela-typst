@@ -5,7 +5,7 @@
      </namerecord>
      <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
 -      Novela
-+      Novela Display
++      NovelaDisplay
      </namerecord>
      <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
 -      Display Italic
@@ -16,7 +16,8 @@
 +      1.001;UKWN;NovelaDisplay-Italic
      </namerecord>
      <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-       Novela Display Italic
+-      Novela Display Italic
++      NovelaDisplay Italic
      </namerecord>
      <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
 -      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
@@ -28,7 +29,14 @@
      </namerecord>
      <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
        atipo
-@@ -841,7 +841,7 @@
+@@ -835,31 +835,31 @@
+       Copyright © 2021 by atipo. All rights reserved.
+     </namerecord>
+     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+-      Novela Display
++      NovelaDisplay
+     </namerecord>
+     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
        Italic
      </namerecord>
      <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
@@ -36,8 +44,10 @@
 +      1.001;UKWN;NovelaDisplay-Italic
      </namerecord>
      <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-       Novela Display Italic
-@@ -850,16 +850,16 @@
+-      Novela Display Italic
++      NovelaDisplay Italic
+     </namerecord>
+     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
        Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
      </namerecord>
      <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
@@ -49,7 +59,7 @@
      </namerecord>
      <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
 -      Novela
-+      Novela Display
++      NovelaDisplay
      </namerecord>
      <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
 -      Display Italic
@@ -77,7 +87,7 @@
      </cmap_format_4>
    </cmap>
  
-@@ -1694,7 +1700,7 @@
+@@ -1694,10 +1700,11 @@
    <CFF>
      <major value="1"/>
      <minor value="0"/>
@@ -85,4 +95,9 @@
 +    <CFFFont name="NovelaDisplay-Italic">
        <version value="001.000"/>
        <Notice value="Copyright \(c\) 2021 by atipo. All rights reserved."/>
-       <FullName value="Novela Display Italic"/>
+-      <FullName value="Novela Display Italic"/>
++      <FullName value="NovelaDisplay Italic"/>
++      <FamilyName value="NovelaDisplay"/>
+       <Weight value="Regular"/>
+       <isFixedPitch value="0"/>
+       <ItalicAngle value="-14"/>

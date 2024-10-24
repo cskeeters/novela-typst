@@ -5,7 +5,7 @@
      </namerecord>
      <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
 -      Novela
-+      Novela Display
++      NovelaDisplay
      </namerecord>
      <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
 -      Display Regular
@@ -16,7 +16,8 @@
 +      1.001;UKWN;NovelaDisplay-Regular
      </namerecord>
      <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-       Novela Display Regular
+-      Novela Display Regular
++      NovelaDisplay Regular
      </namerecord>
      <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
 -      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
@@ -28,7 +29,14 @@
      </namerecord>
      <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
        atipo
-@@ -844,16 +844,16 @@
+@@ -838,22 +838,22 @@
+       Copyright © 2021 by atipo. All rights reserved.
+     </namerecord>
+     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+-      Novela Display
++      NovelaDisplay
+     </namerecord>
+     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
        Regular
      </namerecord>
      <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
@@ -36,7 +44,8 @@
 +      1.001;UKWN;NovelaDisplay-Regular
      </namerecord>
      <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-       Novela Display Regular
+-      Novela Display Regular
++      NovelaDisplay Regular
      </namerecord>
      <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
 -      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
@@ -53,7 +62,7 @@
      </namerecord>
      <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
 -      Novela
-+      Novela Display
++      NovelaDisplay
      </namerecord>
      <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
 -      Display Regular
@@ -81,3 +90,17 @@
      </cmap_format_4>
    </cmap>
  
+@@ -1700,10 +1706,11 @@
+   <CFF>
+     <major value="1"/>
+     <minor value="0"/>
+-    <CFFFont name="Novela-DisplayRegular">
++    <CFFFont name="NovelaDisplay-Regular">
+       <version value="001.000"/>
+       <Notice value="Copyright \(c\) 2021 by atipo. All rights reserved."/>
+-      <FullName value="Novela Display Regular"/>
++      <FullName value="NovelaDisplay Regular"/>
++      <FamilyName value="NovelaDisplay"/>
+       <Weight value="Regular"/>
+       <isFixedPitch value="0"/>
+       <ItalicAngle value="0"/>
