@@ -1,5 +1,5 @@
---- NovelaDisplay-Italic.ttx	2024-10-23 15:23:48
-+++ NovelaDisplay-Italic.ttx	2024-10-23 15:23:36
+--- Novela-DisplayItalic.ttx	2024-10-24 00:13:44
++++ NovelaDisplay-Italic.ttx	2024-10-24 00:15:08
 @@ -811,22 +811,22 @@
        Copyright © 2021 by atipo. All rights reserved.
      </namerecord>
@@ -13,7 +13,7 @@
      </namerecord>
      <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
 -      1.000;UKWN;Novela-DisplayItalic
-+      1.001;UKWN;Novela-DisplayItalic
++      1.001;UKWN;NovelaDisplay-Italic
      </namerecord>
      <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
        Novela Display Italic
@@ -33,7 +33,7 @@
      </namerecord>
      <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
 -      1.000;UKWN;Novela-DisplayItalic
-+      1.001;UKWN;Novela-DisplayItalic
++      1.001;UKWN;NovelaDisplay-Italic
      </namerecord>
      <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
        Novela Display Italic
@@ -77,3 +77,12 @@
      </cmap_format_4>
    </cmap>
  
+@@ -1694,7 +1700,7 @@
+   <CFF>
+     <major value="1"/>
+     <minor value="0"/>
+-    <CFFFont name="Novela-DisplayItalic">
++    <CFFFont name="NovelaDisplay-Italic">
+       <version value="001.000"/>
+       <Notice value="Copyright \(c\) 2021 by atipo. All rights reserved."/>
+       <FullName value="Novela Display Italic"/>

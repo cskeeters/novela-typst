@@ -1,25 +1,44 @@
-default: display modified/Novela-Regular.otf
+FONTS = Novela-Regular.otf \
+        NovelaDisplay-Regular.otf \
+        NovelaDisplay-Italic.otf
 
-display: modified/NovelaDisplay-Regular.otf modified/NovelaDisplay-Italic.otf
+TTXFILES = $(patsubst %.otf,%.ttx,$(FONTS))
+PATCHTARGETS = $(patsubst %.otf,%-patched.ttx,$(FONTS))
+MFONTS = $(patsubst %,modified/%,$(FONTS))
 
-modified:
-	mkdir -p modified
+.PHONY: default ttx patch clean
 
-modified/NovelaDisplay-Regular.otf: modified
-	ttx Novela-DisplayRegular.otf -o NovelaDisplay-Regular.ttx # note the name change
-	patch -p0 < display_regular.patch
-	ttx NovelaDisplay-Regular.ttx -d modified
+# This target creates the modified .otf files in the modified directory
+default: ttx patch $(MFONTS)
 
-modified/NovelaDisplay-Italic.otf: modified
-	ttx Novela-DisplayItalic.otf -o NovelaDisplay-Italic.ttx # note the name change
-	patch -p0 < display_italic.patch
-	ttx NovelaDisplay-Italic.ttx -d modified
+# This target extracts fonts to be modified into TTX format
+ttx: $(TTXFILES)
+	@echo $(PATCHTARGETS)
 
-modified/Novela-Regular.otf: modified
-	ttx Novela-Regular.otf
-	patch -p0 < regular.patch
-	ttx Novela-Regular.ttx -d modified
+# This target patches the .ttx files
+patch: $(PATCHTARGETS)
+	echo $(PATCHTARGETS)
 
 clean:
 	rm -rf *.ttx modified
 
+
+# Rules to create .ttx files from .otf files
+%.ttx: %.otf
+	ttx -o $@ $<
+
+NovelaDisplay-Regular.ttx: Novela-DisplayRegular.otf
+	ttx -o $@ $<
+
+NovelaDisplay-Italic.ttx: Novela-DisplayItalic.otf
+	ttx -o $@ $<
+
+# Rule to patch .ttx files
+%-patched.ttx: %.patch %.ttx
+	patch -p0 < $<
+	mv $(word 2,$^) $@
+
+# Rule to create .otf files from .ttx files
+modified/%.otf: %-patched.ttx
+	mkdir -p modified
+	ttx -o $@ $<
